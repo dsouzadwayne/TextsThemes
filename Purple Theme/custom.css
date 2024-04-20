@@ -1,0 +1,195 @@
+:root {
+  --color-background-app: #202124;
+  --color-background-elevated: #28292c;
+  --color-background-grouped: #28292c;
+  --color-background-grouped-weak: #35363a;
+  --color-background-header-right-opaque: rgba(40, 41, 44, 0.9);
+  --color-background-header-right: rgba(40, 41, 44, 0.7);
+  --color-background-message-bubble-received: #35363a;
+  --color-background-message-bubble-sent: #6c4dd6;
+  --color-background-message-bubble-linked: #35363a;
+  --color-background-message-bubble-group-0: #6c4dd6;
+  --color-background-message-bubble-group-1: #a142f4;
+  --color-background-message-bubble-group-2: #744fc6;
+  --color-background-message-bubble-group-3: #5c3aa8;
+  --color-background-message-bubble-group-4: #4a148c;
+  --color-background-message-bubble-group-5: #6a1b9a;
+  --color-background-message-bubble-group-6: #9c27b0;
+  --color-background-message-bubble-group-7: #ba68c8;
+  --color-background-message-bubble-suggested: #44464d;
+  --color-background-menu-opaque: rgba(34, 35, 38, 0.9);
+  --color-background-menu: rgba(34, 35, 38, 0.7);
+  --color-background-menu-badge: #6c4dd6;
+  --color-background-menu-option-hover: #6c4dd6;
+  --color-background-message-active: #44464d;
+  --color-background-input: #35363a;
+  --color-background-preferences-option-selected: #6c4dd6;
+  --color-background-scrollbar: #44464d;
+  --color-background-scrollbar-hover: #6c4dd6;
+  --color-background-selected-primary: #6c4dd6;
+  --color-background-tooltip: #35363a;
+  --color-background-sidebar-filter-selected: #6c4dd6;
+  --color-background-sidebar-thread-selected-unfocused: #28292c;
+  --color-background-sidebar-thread-focus: #44464d;
+  --color-background-sidebar-opaque: #202124;
+  --color-background-button-primary: #6c4dd6;
+  --color-background-button-primary-disabled: #4a148c;
+  --color-background-button-danger: #ff4e50;
+  --color-background-button-danger-disabled: #b91c1c;
+  --color-background-button-secondary: #35363a;
+  --color-background-button-secondary-active: #44464d;
+  --color-background-button-secondary-disabled: #1e1f22;
+  --color-background-button-translucent: #44464d;
+  --color-background-button-translucent-active: #6c4dd6;
+  --color-background-button-ghost-hover: #44464d;
+  --color-background-button-ghost-active: #6c4dd6;
+  --color-background-kbd: #35363a;
+  --color-background-tag: #44464d;
+  --color-background-commandbar: rgba(40, 41, 44, 0.9);
+  --color-background-commandbar-mode: #35363a;
+  --color-background-commandbar-command-highlighted: #44464d;
+  --color-background-commandbar-opaque: rgba(40, 41, 44, 0.9);
+  --color-background-emoji-mart: #28292c;
+
+  --color-border-message-bubble-suggested: #44464d;
+  --color-border-input: #6c4dd6;
+  --color-border-input-active: #9c27b0;
+  --color-border-button-secondary: #44464d;
+  --color-border-button-secondary-active: #6c4dd6;
+  --color-border-button-secondary-focus: #9c27b0;
+  --color-border-button-secondary-disabled: #1e1f22;
+  --color-border-neutrals: #44464d;
+  --color-border-neutrals-weak: #35363a;
+
+  --color-text-message-bubble-suggested: #fff;
+  --color-text-on-accent: #fff;
+  --color-text-on-accent-weak: #e1e3e6;
+  --color-text-message-bubble-group-0: #fff;
+  --color-text-message-bubble-group-1: #fff;
+  --color-text-message-bubble-group-2: #fff;
+  --color-text-message-bubble-group-3: #fff;
+  --color-text-message-bubble-group-4: #fff;
+  --color-text-message-bubble-group-5: #fff;
+  --color-text-message-bubble-group-6: #fff;
+  --color-text-message-bubble-group-7: #fff;
+  --color-text-danger: #ff4e50;
+  --color-text-danger-active: #ff7a7b;
+  --color-text-danger-disabled: #b91c1c;
+  --color-text-button-secondary: #e1e3e6;
+  --color-text-button-secondary-disabled: #8d9096;
+  --color-text-tooltip: #e1e3e6;
+  --color-text-translucent: #e1e3e6;
+  --color-text-translucent-subtle: #8d9096;
+  --color-text-translucent-weak: #5c5f66;
+
+  --color-icon-on-accent: #fff;
+  --color-icon-on-accent-strong: #fff;
+  --color-icon-on-accent-weak: #e1e3e6;
+  --color-icon-translucent: #8d9096;
+  --color-icon-translucent-strong: #e1e3e6;
+  --color-icon-translucent-weak: #5c5f66;
+
+  --color-overlay-modal: rgba(32, 33, 36, 0.9);
+
+  --color-primary: #6c4dd6;
+  --color-primary-hover: #9c27b0;
+  --color-primary-rgb: 108, 77, 214;
+
+  --color-icon-neutrals: #bec1c5;
+  --color-icon-neutrals-weak: #8d9096;
+
+  --color-text-neutrals: #e1e3e6;
+  --color-text-neutrals-weak: #8d9096;
+  --color-text-neutrals-subtle: #5c5f66;
+  --color-text-info: #03a9f4;
+  --color-text-info-active: #4fc3f7;
+  --color-text-info-disabled: #006db3;
+
+  --shadows-button-secondary: 0px 0px 0px 1px #44464d;
+  --shadows-button-secondary-active: 0px 0px 0px 1px #6c4dd6;
+  --shadows-button-secondary-disabled: 0px 0px 0px 1px #1e1f22;
+  --shadows-interactive-focus: 0px 0px 0px 1px #9c27b0;
+  --shadows-menu: 0 4px 16px rgba(0, 0, 0, 0.4);
+  --shadows-commandbar: 0 12px 50px rgba(0, 0, 0, 0.5);
+  --shadows-background-elevated: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+/* Additional custom styles */
+.message-container:hover {
+  border-left-color: #6c4dd6;
+}
+
+.message-container.is-selected {
+  background: #35363a;
+  border-right-color: #6c4dd6;
+}
+
+.sidebar-thread.selected {
+  --thread-children-bg: #6c4dd6;
+}
+
+.compose-message textarea:focus {
+  border-color: #9c27b0;
+}
+
+.btn-solid-primary {
+  background: #6c4dd6;
+}
+
+.btn-solid-primary:active {
+  background: #9c27b0;
+}
+
+.btn-solid-primary:disabled {
+  background: #4a148c;
+}
+
+.btn-icon-primary {
+  background: #6c4dd6;
+}
+
+.btn-icon-primary:active {
+  background: #9c27b0;
+}
+
+.btn-icon-primary:disabled {
+  background: #4a148c;
+}
+
+.btn-ghost:active,
+.btn-ghost.highlighted {
+  background-color: #6c4dd6;
+}
+
+.zoom-slider .track {
+  background-color: #6c4dd6;
+}
+
+.zoom-level {
+  background-color: #6c4dd6;
+  border-color: #202124;
+}
+
+.menu-item.selected {
+  background: #6c4dd6;
+}
+
+.pref-option.selected {
+  background: #6c4dd6;
+}
+
+.pref-option.selected .pref-icon:not(.brand-combined-icon) {
+  background-color: #fff !important;
+  color: #6c4dd6 !important;
+}
+
+.theme-button:disabled span {
+  background-color: #6c4dd6;
+}
+
+.video-player .video-controls progress[value]::-webkit-progress-value {
+  background-color: #6c4dd6;
+}
+
+.video-player .video-controls .video-progress .video-handle {
+  background: #6c4dd6;
+}
