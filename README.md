@@ -8,7 +8,7 @@ There are two versions; one is for a minimalist-styled theme; you won't be able 
 The other version just changes the theme.
 
 The Purple theme looks like;
-![image](https://github.com/dwaynekd/TextsThemes/assets/85386041/364b142d-0cb4-4824-bcb0-873cea218caa)
+![image](https://github.com/dsouzadwayne/TextsThemes/assets/85386041/a73834ea-f2eb-4f04-a409-bfd96ee1ee6c)
 
 The Purple theme (minimalist) looks like;
 ![image](https://github.com/dsouzadwayne/TextsThemes/assets/85386041/f84f2dbe-122b-44f9-87ef-f6b7783d89b0)
